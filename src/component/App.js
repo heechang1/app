@@ -14,7 +14,7 @@ const URL_HELLO = `${URL_API}`;
         axios.get(URL_HELLO)
         .then(function(response) {
             console.log(response.data);
-            console.log("성공1");
+            console.log("성공21");
         })
         .catch(function(error) {
             console.log("실패");
